@@ -1,38 +1,42 @@
-# OctoAcme — Release & Deployment Guide
+# OctoAcme — Guía de Release y Despliegue
 
-## Purpose
-Standardize how OctoAcme releases features to production to reduce risk and improve observability.
+## Propósito
+Estandarizar cómo OctoAcme libera funcionalidades a producción para reducir el riesgo y mejorar la observabilidad.
 
-## Release Types
-- Patch: hotfixes addressing critical production issues
-- Minor: incremental features and improvements
-- Major: significant functionality or breaking changes
+## Tipos de Release
+- Parche (Patch): hotfixes para problemas críticos en producción
+- Menor (Minor): funcionalidades y mejoras incrementales
+- Mayor (Major): funcionalidad significativa o cambios disruptivos
 
-## Pre-release requirements
-- All acceptance criteria met and PRs merged
-- Passing CI and security scans
-- Release notes drafted
-- Rollback / mitigation plan documented
-- Smoke tests prepared
+## Requisitos Previos al Release
+- Todos los criterios de aceptación cumplidos y PRs integrados
+- CI y escaneos de seguridad pasando (validado por el **Líder Técnico**)
+- Release notes redactadas
+- Plan de rollback / mitigación documentado
+- Pruebas de humo preparadas y aprobadas por **QA**
+- Diseñador UX/UI confirma que los flujos de usuario cumplen con los criterios de usabilidad acordados
+- **Stakeholder Externo** notificado con anticipación sobre la fecha y el alcance del release
 
-## Deployment Checklist
-- [ ] Deployment window scheduled (if needed)
-- [ ] Backup or snapshot (if applicable)
-- [ ] Deploy to staging and run smoke tests
-- [ ] Deploy to production (automated pipeline preferred)
-- [ ] Run post-deploy verifications
-- [ ] Announce release to stakeholders and support
+## Checklist de Despliegue
+- [ ] Ventana de despliegue calendarizada (si aplica)
+- [ ] Backup o snapshot realizado (si corresponde)
+- [ ] Despliegue en staging y pruebas de humo ejecutadas por QA
+- [ ] Despliegue a producción (pipeline automatizado preferido)
+- [ ] Verificaciones post-despliegue ejecutadas
+- [ ] Release anunciado a stakeholders, soporte y Stakeholders Externos
 
-## Rollback & Incident Playbook
-- If a deployment fails or causes a critical issue:
-  - Trigger incident response and notify on-call
-  - Rollback to last known-good release if necessary
-  - Triage root cause and capture action items
+## Playbook de Rollback e Incidentes
+- Si un despliegue falla o causa un problema crítico:
+  - Activar respuesta a incidentes y notificar al equipo de guardia
+  - Hacer rollback al último release conocido como estable si es necesario
+  - El **Líder Técnico** lidera el triaje de causa raíz
+  - Capturar causa raíz y elementos de acción
+  - Notificar al **Stakeholder Externo** sobre el incidente y el plan de acción
 
-## Release Notes Template
-- Release name / number:
-- Date:
-- Summary:
-- Notable changes:
-- Migration steps (if any):
-- Known issues:
+## Plantilla de Release Notes
+- Nombre / número del release:
+- Fecha:
+- Resumen:
+- Cambios destacados:
+- Pasos de migración (si aplica):
+- Problemas conocidos:

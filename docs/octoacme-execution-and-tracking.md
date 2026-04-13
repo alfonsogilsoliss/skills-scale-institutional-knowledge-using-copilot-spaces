@@ -1,41 +1,45 @@
-# OctoAcme — Execution & Tracking
-------------------------------------
+# OctoAcme — Ejecución y Seguimiento
 
-## Purpose
-Guidance for managing day-to-day execution and tracking progress toward project milestones.
+## Propósito
+Orientación para gestionar la ejecución diaria y hacer seguimiento del avance hacia los hitos del proyecto.
 
-## Team Rhythm
-- Daily standups (15 min) — focus on progress, blockers, dependencies
-- Weekly delivery sync — show progress, updates, and flagged risks
-- Demo/Review at the end of each sprint or milestone
+## Ritmo del Equipo
+- Standups diarios (15 min) — enfocados en avance, bloqueos y dependencias; participan todos los roles del equipo
+- Sincronización semanal de entrega — mostrar avance, actualizaciones y riesgos identificados (PM, PdM, Líder Técnico)
+- Demo/Revisión al final de cada sprint o hito — con participación del Stakeholder Externo para validación y feedback
 
-## Workflows
-- Use the project board (e.g., GitHub Projects) with columns: Backlog, Ready, In Progress, In Review, QA, Done
-- Pull Request workflow:
-  - Small PRs (<= 400 lines when possible)
-  - Include issue link and acceptance criteria in PR description
-  - Run automated tests and linting in CI before requesting review
-  - Require at least one approval before merging (or team-defined policy)
+## Flujos de Trabajo
+- Usar el tablero del proyecto (p. ej., GitHub Projects) con columnas: Backlog, Listo, En Progreso, En Revisión, QA, Hecho
+- Flujo de Pull Requests:
+  - PRs pequeños (<= 400 líneas cuando sea posible)
+  - Incluir enlace al issue y criterios de aceptación en la descripción del PR
+  - Ejecutar pruebas automáticas y linting en CI antes de solicitar revisión
+  - El **Líder Técnico** participa en las revisiones de código para asegurar los estándares técnicos
+  - Requerir al menos una aprobación antes de hacer merge (o según la política del equipo)
 
-## Quality & Testing
-- Unit tests for new logic
-- Integration tests where applicable
-- End-to-end smoke tests for critical flows before release
-- Security scanning in CI
-- Manual QA for feature acceptance when needed
+## Calidad y Pruebas
+- Pruebas unitarias para nueva lógica
+- Pruebas de integración donde corresponda
+- Pruebas de humo end-to-end para flujos críticos antes del release
+- Escaneo de seguridad en CI
+- **QA** ejecuta pruebas de aceptación manual cuando se requiere validación de funcionalidades
+- **Diseñador UX/UI** participa en pruebas de usabilidad y accesibilidad antes del cierre de hitos
 
-## Reporting & Metrics
-- Track velocity and burndown
-- Monitor success metrics identified in the Project One-pager
-- Use dashboards for key signals (errors, latency, usage)
+## Reportes y Métricas
+- Rastrear velocidad y burndown
+- Monitorear las métricas de éxito identificadas en el One-pager del proyecto
+- Usar dashboards para señales clave (errores, latencia, uso)
+- **QA** reporta métricas de calidad y estado de defectos en las sincronizaciones semanales
 
-## Blocker Escalation
-- Level 1: Team-level triage in daily standup
-- Level 2: PM escalates to Product Lead and dependent teams
-- Level 3: Sponsor-level escalation for business-impacting issues
+## Escalamiento de Bloqueos
+- Nivel 1: Triaje a nivel de equipo en el standup diario
+- Nivel 2: El PM escala al Product Lead y a los equipos dependientes; el **Líder Técnico** coordina la resolución técnica
+- Nivel 3: Escalamiento al Sponsor para problemas con impacto en el negocio; notificar al **Stakeholder Externo** si el bloqueo afecta hitos acordados
 
-## Execution Checklist
-- [ ] Branching and PR conventions documented in repo
-- [ ] CI configured for tests and lint
-- [ ] Regular demos scheduled
-- [ ] Risk register updated weekly
+## Checklist de Ejecución
+- [ ] Convenciones de branching y PR documentadas en el repositorio
+- [ ] CI configurado para pruebas y lint (validado por el Líder Técnico)
+- [ ] Demos regulares calendarizadas con participación del Stakeholder Externo
+- [ ] Registro de Riesgos actualizado semanalmente
+- [ ] QA integrado en el flujo de entrega desde el inicio del sprint
+- [ ] Diseñador UX/UI disponible para consultas y revisiones durante la ejecución

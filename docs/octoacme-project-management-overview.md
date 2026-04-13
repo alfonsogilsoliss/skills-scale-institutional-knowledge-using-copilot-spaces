@@ -1,46 +1,52 @@
-# OctoAcme Project Management Overview
+# Descripción General de Gestión de Proyectos OctoAcme
 
-## Purpose
-Provide a concise, shareable introduction to how OctoAcme runs projects so new teammates can quickly understand our approach, roles, and key artifacts.
+## Propósito
+Proveer una introducción concisa y compartible de cómo OctoAcme gestiona proyectos, para que los nuevos integrantes del equipo puedan entender rápidamente el enfoque, los roles y los artefactos clave.
 
-## Scope
-Applies to all cross-functional projects that deliver product features, services, or integrations.
+## Alcance
+Aplica a todos los proyectos multifuncionales que entregan funcionalidades de producto, servicios o integraciones.
 
-## Principles
-- Customer-first: prioritize customer value and usability.
-- Iterative delivery: deliver small, testable increments.
-- Clear ownership: each project has a named Project Manager (PM) and Product Lead.
-- Data-informed decisions: measure impact and iterate based on evidence.
-- Psychological safety: encourage feedback and learning.
+## Principios
+- Cliente primero: priorizar el valor y la usabilidad para el cliente.
+- Entrega iterativa: entregar incrementos pequeños y verificables.
+- Propiedad clara: cada proyecto tiene un Project Manager (PM) y un Product Lead designados.
+- Decisiones basadas en datos: medir el impacto e iterar con base en evidencia.
+- Seguridad psicológica: fomentar la retroalimentación y el aprendizaje continuo.
 
-## Core Roles
-- Project Manager (PM): coordinates delivery, schedules, risk, communications.
-- Product Manager (PdM): defines outcomes, prioritizes backlog, and measures success.
-- Developers: implement features, collaborate on design and testability.
-- QA/Testing: validate quality and acceptance criteria.
-- Stakeholders: provide inputs and approvals.
+## Roles Principales
+- **Project Manager (PM):** coordina la entrega, cronogramas, riesgos y comunicaciones.
+- **Product Manager (PdM):** define los resultados esperados, prioriza el backlog y mide el éxito.
+- **Desarrolladores:** implementan funcionalidades, colaboran en diseño y verificabilidad.
+- **Analista de Calidad (QA):** valida la calidad, ejecuta planes de prueba y gestiona defectos.
+- **Diseñador UX/UI:** asegura la usabilidad, accesibilidad y calidad de la experiencia de usuario.
+- **Líder Técnico (Tech Lead):** establece estándares técnicos, guía al equipo de desarrollo y asegura la viabilidad técnica.
+- **Stakeholders Externos:** aportan perspectiva de negocio o usuarios finales, validan entregables y participan en revisiones clave.
 
-## Key Artifacts
-- Project Charter / One-pager
-- Roadmap and Release Plan
-- Sprint/Iteration Backlog
-- Acceptance Criteria & Definition of Done
-- Risk Register
-- Retrospective notes and action items
+Para descripciones detalladas de cada rol, consultar [`docs/octoacme-roles-and-personas.md`](octoacme-roles-and-personas.md).
 
-## Lifecycle (high-level)
-1. Initiation: problem statement, stakeholders, high-level timeline.
-2. Planning: scope, resources, milestones, dependencies.
-3. Execution: build, test, review, iterate.
-4. Release: deploy, verify, announce.
-5. Close & Retrospective: capture learnings and next steps.
+## Artefactos Clave
+- Charter del Proyecto / One-pager
+- Roadmap y Plan de Releases
+- Backlog del Sprint/Iteración
+- Criterios de Aceptación y Definición de Hecho (DoD)
+- Registro de Riesgos
+- Notas de Retrospectiva y elementos de acción
 
-## Communication Cadence
-- Weekly sync between PM + PdM
-- Twice-weekly standups for delivery team (or as agreed)
-- Monthly stakeholder updates
-- Ad-hoc escalations as needed
+## Ciclo de Vida (alto nivel)
+1. Iniciación: declaración del problema, identificación de stakeholders, cronograma de alto nivel.
+2. Planificación: alcance, recursos, hitos, dependencias. Participan PM, PdM, Líder Técnico y Diseñador UX/UI.
+3. Ejecución: construir, probar, revisar, iterar. Participan todos los roles del equipo.
+4. Liberación: desplegar, verificar, anunciar. QA y Stakeholders Externos validan antes del lanzamiento.
+5. Cierre & Retrospectiva: capturar aprendizajes y próximos pasos. Todos los roles participan.
 
-## How to use these docs
-- Keep the Project Charter updated in the project repo.
-- Add process-specific docs into `.copilot/` if you want Copilot Spaces to use them as context.
+## Cadencia de Comunicación
+- Sincronización semanal entre PM + PdM (+ Líder Técnico cuando haya temas técnicos relevantes)
+- Standups dos veces por semana para el equipo de entrega (o según se acuerde)
+- Actualizaciones mensuales a Stakeholders Externos
+- Revisiones de hitos con participación del Stakeholder Externo para validación y feedback
+- Escalaciones ad hoc según sea necesario
+
+## Cómo usar esta documentación
+- Mantén el Charter del Proyecto actualizado en el repositorio del proyecto.
+- Agrega documentos de proceso específicos en `.copilot/` si deseas que Copilot Spaces los use como contexto.
+- Consulta [`docs/octoacme-roles-and-personas.md`](octoacme-roles-and-personas.md) para incorporar nuevos roles o ajustar la estructura del equipo.

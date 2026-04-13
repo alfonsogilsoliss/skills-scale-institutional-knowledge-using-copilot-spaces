@@ -1,43 +1,51 @@
-# OctoAcme — Project Planning
+# OctoAcme — Planificación del Proyecto
 
-## Purpose
-Turn an approved initiative into an actionable plan and backlog for delivery.
+## Propósito
+Convertir una iniciativa aprobada en un plan accionable y un backlog para la entrega.
 
-## Objectives
-- Break work into shippable increments
-- Identify dependencies and risks
-- Align timelines, releases, and responsibilities
+## Objetivos
+- Descomponer el trabajo en incrementos entregables
+- Identificar dependencias y riesgos
+- Alinear cronogramas, releases y responsabilidades
 
-## Activities
-1. Kickoff meeting with stakeholders and delivery team
-2. Create prioritized backlog with acceptance criteria
-3. Estimate scope (T-shirt sizing or story points)
-4. Define Definition of Done (DoD)
-5. Identify dependencies and integration points
-6. Create release plan and milestone map
+## Actividades
+1. Reunión de kickoff con stakeholders, Diseñador UX/UI, Líder Técnico y equipo de entrega
+2. Crear backlog priorizado con criterios de aceptación (con participación de QA desde el inicio)
+3. Estimar alcance (T-shirt sizing o story points), con validación técnica del Líder Técnico
+4. Definir la Definición de Hecho (DoD) — incluir criterios de calidad acordados con QA
+5. Identificar dependencias y puntos de integración
+6. Crear plan de releases y mapa de hitos
+7. Alinear con Stakeholders Externos sobre hitos de revisión y sesiones de feedback esperadas
 
-## Backlog Item Template
-- Title:
-- Description:
-- Acceptance criteria:
-- Priority:
-- Estimate:
-- Owner:
-- Related docs/links:
+## Plantilla de Ítem de Backlog
+- Título:
+- Descripción:
+- Criterios de aceptación:
+- Prioridad:
+- Estimado:
+- Responsable:
+- Documentos/links relacionados:
 
-## Sprint / Iteration Planning
-- Timebox planning to agreed sprint length
-- Pull items that meet DoD and have clear acceptance criteria
-- Ensure team capacity is respected
+## Planificación del Sprint / Iteración
+- Acotar la planificación al tiempo acordado de sprint
+- Incorporar ítems que cumplan el DoD y tengan criterios de aceptación claros
+- Asegurarse de que la capacidad del equipo sea respetada
+- El Líder Técnico participa para validar la viabilidad técnica de los ítems incluidos
+- QA revisa los criterios de aceptación para confirmar que son verificables
 
-## Risk & Dependency Management
-- Capture in Risk Register:
-  - ID, Description, Impact, Probability, Owner, Mitigation
-- Mark cross-team dependencies in the project board and escalate during weekly syncs
+## Gestión de Riesgos y Dependencias
+- Capturar en el Registro de Riesgos:
+  - ID, Descripción, Impacto, Probabilidad, Responsable, Mitigación
+- Señalar las dependencias entre equipos en el tablero del proyecto y escalar durante las sincronizaciones semanales
+- El Líder Técnico identifica y documenta los riesgos técnicos
+- QA identifica riesgos de calidad que puedan impactar la entrega
 
-## Planning Checklist
-- [ ] Project kickoff held
-- [ ] Backlog prioritized and estimated
-- [ ] Release timeline and milestones agreed
-- [ ] Definition of Done documented
-- [ ] Initial test plan / QA approach drafted
+## Checklist de Planificación
+- [ ] Kickoff del proyecto realizado (con PM, PdM, Líder Técnico, Diseñador UX/UI y QA)
+- [ ] Backlog priorizado y estimado, revisado por el Líder Técnico
+- [ ] Cronograma de release y hitos acordados
+- [ ] Definición de Hecho (DoD) documentada, aprobada por QA
+- [ ] Plan/enfoque inicial de pruebas elaborado por QA
+- [ ] Diseños o wireframes iniciales del Diseñador UX/UI compartidos con el equipo
+- [ ] Hitos de revisión con Stakeholders Externos calendarizados
+- [ ] Roles y responsabilidades del equipo confirmados (ver [`docs/octoacme-roles-and-personas.md`](octoacme-roles-and-personas.md))
