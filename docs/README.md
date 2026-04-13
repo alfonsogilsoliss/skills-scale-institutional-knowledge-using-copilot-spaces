@@ -1,7 +1,39 @@
-OctoAcme adopta un enfoque estructurado, iterativo y centrado en la colaboración para la gestión de proyectos. El proceso inicia con una fase de iniciación en la que se valida la necesidad del negocio, se identifican a los interesados y se acuerdan las métricas de éxito, usando un documento one-pager como punto de partida. Posteriormente, en la etapa de planeación, se desglosan los entregables en incrementos despachables, se identifican dependencias y riesgos, y se establece un plan de lanzamientos. Las actividades están soportadas por artefactos clave como la lista de riesgos, la planificación de entregas, y un backlog priorizado con criterios claros de aceptación y definición de hecho (Definition of Done).
+# Documentación de Procesos del Programa
 
-Los roles principales en el ciclo de vida de los proyectos OctoAcme incluyen el Project Manager (PM), quien coordina la entrega, identifica riesgos y gestiona la comunicación; el Product Manager (PdM), encargado de definir los objetivos y medir el éxito; los desarrolladores, que implementan y prueban las funcionalidades; así como QA y stakeholders, cada uno con responsabilidades y flujos de comunicación específicos. Estos roles facilitan la transparencia, el enfoque en el valor para el cliente y la adaptabilidad a cambios.
+Este directorio contiene todas las guías, plantillas y artefactos que sistematizan la gestión de proyectos en este repositorio. El objetivo es centralizar el conocimiento, facilitar la colaboración y reducir la dependencia de información dispersa o tácita.
 
-La comunicación es considerada un pilar fundamental. Se promueven sincronizaciones semanales entre el PM y el PdM, reuniones diarias de seguimiento para el equipo de desarrollo, y actualizaciones mensuales a los stakeholders. Además, existen rutas claras de escalamiento de bloqueos y un énfasis en contar con un único documento fuente para el estado del proyecto. Se utilizan plantillas de comunicación para reportes semanales, incidentes y actualizaciones de riesgos, asegurando un flujo consistente y transparente de información.
+## Propósito de este espacio Copilot
 
-En cuanto a aseguramiento de calidad, OctoAcme establece una combinación de pruebas unitarias, de integración, y end-to-end para flujos críticos, respaldadas por escaneos de seguridad en CI/CD y revisión manual cuando corresponde. El proceso de liberación contempla criterios estrictos previos de aceptación, listas de control para despliegue y mecanismos de rollback ante incidentes. La mejora continua es parte integral del proceso, realizándose retrospectivas tras cada iteración para identificar aprendizajes y planear acciones de mejora, fomentando así una cultura de ajustes incrementales y celebración de logros.
+- Centralizar el conocimiento disperso de gestión de proyectos.
+- Convertir conocimientos tácitos del equipo en documentos buscables y versionados.
+- Dar acceso igualitario a procesos, decisiones y justificaciones a todo el equipo.
+- Conectar este repositorio como una fuente de conocimiento estructurada.
+- Extraer, refinar y estandarizar flujos de trabajo colaborativamente.
+- Incorporar mejoras validadas de manera continua en la documentación.
+- Acelerar la incorporación y reducir el riesgo de dependencia de una sola persona.
+- Habilitar la ejecución consistente y repetible del proyecto.
+
+## Estructura de Documentos
+
+Cada documento en este directorio aborda una fase o componente clave del proceso de gestión de proyectos:
+
+- **octoacme-project-management-overview.md** — Visión general de la gestión de proyectos.
+- **octoacme-project-initiation.md** — Guía para la iniciación de proyectos.
+- **octoacme-project-planning.md** — Planificación de proyectos.
+- **octoacme-execution-and-tracking.md** — Ejecución y seguimiento.
+- **octoacme-risks-and-communication.md** — Gestión de riesgos y comunicación.
+- **octoacme-release-and-deployment.md** — Liberación y despliegue.
+- **octoacme-retrospective-and-continuous-improvement.md** — Retrospectiva y mejora continua.
+- **octoacme-roles-and-personas.md** — Definición de roles y responsabilidades.
+
+> **Nota:** Cuando propongas nuevas mejoras o contenidos, utiliza las plantillas de Issue ubicadas en `.github/ISSUE_TEMPLATE/`, para asegurar el registro y revisión adecuada de actualizaciones o nuevas prácticas.
+
+## Contribución
+
+Para actualizar o agregar documentos, usa el flujo definido en las plantillas de Issue (ver `.github/ISSUE_TEMPLATE/`). Así se garantiza la alineación, revisión y estándares del espacio.
+
+---
+
+Toda la documentación debe mantenerse en español.
+
+También se hace referencia a los roles implicados descritos en `octoacme-roles-and-personas.md`.
